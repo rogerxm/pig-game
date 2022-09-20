@@ -15,8 +15,8 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 100vh;
-  color: #333;
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +75,15 @@ main {
 
 .player--active .current {
   opacity: 1;
+}
+
+.player2--active {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(122, 122, 249, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .current {
